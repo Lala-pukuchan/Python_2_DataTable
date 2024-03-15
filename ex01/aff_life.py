@@ -12,7 +12,12 @@ def aff_life(df: dt):
         france_melted["year"] = france_melted["year"].astype(int)
         plt.plot(france_melted["year"], france_melted["ex"])
         plt.xticks(
-            range(france_melted["year"].min(), france_melted["year"].max() + 1, 40)
+            range
+            (
+                france_melted["year"].min(),
+                france_melted["year"].max() + 1,
+                40
+            )
         )
         plt.title("France Life expectancy Projections")
         plt.xlabel("year")
