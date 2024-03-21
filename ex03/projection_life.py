@@ -48,6 +48,6 @@ def projection_life(df: dt, df2: dt):
 
 if __name__ == "__main__":
     projection_life(
-        load("life_expectancy_years.csv"), 
+        load("life_expectancy_years.csv"),
         load("income_per_person_gdppercapita_ppp_inflation_adjusted.csv")
     )
